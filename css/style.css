@@ -1,10 +1,10 @@
 .wrapper {
-    margin-top: 80px;
-    height: calc(100vh - 80px);
+    margin-top: 60px;
+    height: calc(100vh - 60px);
 }
 /* HEADER  */
 header {
-    height: 80px;
+    height: 60px;
 }
 /* SIDEBAR  */
 #sidebar {
