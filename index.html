@@ -16,11 +16,57 @@
 
 <body class="bg-body-tertiary">
     <!-- HEADER  -->
-    <header class="fixed-top align-items-center"> header </header>
+    <header class="fixed-top d-flex align-items-center">
+        <nav class="navbar bg-body-tertiary w-100">
+            <div class="container-fluid">
+                <div class="d-flex flex-grow-1">
+                    <a class="navbar-brand d-none d-sm-block" href="#">
+                        <img src="./img/logo.svg" alt="">
+                    </a>
+                    <a class="navbar-brand mobile d-block d-sm-none" href="#">
+                        <img src="./img/mobile-logo.png" alt="">
+                    </a>
+
+                    <div class="input-group">
+                        <span class="input-group-text border-end-0 search-bar pe-1" id="basic-addon1"><i
+                                class="fa-solid fa-magnifying-glass"></i></span>
+                        <input type="text" class="form-control border-start-0 search-bar" placeholder="Prova a cercare le lezioni di Laravel"
+                            aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+
+                <ul class="nav ">
+                    <li class="nav-item d-none d-sm-block">
+                        <a class="nav-link cs-nav-colors " aria-current="page" href="#"><i class="fa-solid fa-list-ul"></i></a>
+                    </li>
+                    <li class="nav-item d-none d-sm-block">
+                        <a class="nav-link cs-nav-colors" href="#"><i class="fa-solid fa-circle-question"></i></a>
+                    </li>
+                    <li class="nav-item d-none d-sm-block">
+                        <a class="nav-link cs-nav-colors" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link cs-bell" href="#"><i class="fa-solid fa-bell"></i></a>
+                    
+                </ul>
+
+
+
+
+
+            </div>
+        </nav>
+    </header>
     <div class="wrapper d-flex">
         <!-- SIDEBAR -->
         <nav id="sidebar">
-            nav
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-2">
+                        nav
+                    </div>
+                </div>
+            </div>
         </nav>
         <!-- MAIN  -->
         <main>
@@ -45,7 +91,7 @@
                                                 <thead>
                                                     <tr>
                                                         <th scope="col">Nome</th>
-                                                        <th scope="col">Data Inizio</th>
+                                                        <th scope="col" class="">Data Inizio</th>
                                                         <th scope="col" class="text-uppercase">roi</th>
                                                         <th scope="col">Stato</th>
                                                         <th scope="col">Azioni</th>
@@ -171,8 +217,8 @@
                                                 <input type="text" class="form-control border-start-0"
                                                     aria-label="Text input with checkbox">
                                             </div>
-                                            
-                                            
+
+
 
                                         </div>
                                     </div>

@@ -5,6 +5,34 @@
 /* HEADER  */
 header {
     height: 60px;
+    
+}
+.w-10 {
+    width: 5%;
+}
+.w-90 {
+    width: 85%;
+}
+
+.search-bar {
+    background-color: #E5E5E5;
+}
+
+.cs-nav-colors {
+    color: rgb(83, 83, 83);
+    
+}
+
+.cs-bell {
+    color: rgb(228, 178, 14);
+}
+
+.mobile img {
+    width: 40px;
+}
+
+.cs-bell:hover {
+    color: gold;
 }
 /* SIDEBAR  */
 #sidebar {
