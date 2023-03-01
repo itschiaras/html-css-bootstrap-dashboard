@@ -90,7 +90,24 @@ table img {
     border-radius: 3rem;
 }
 
+.my-card {
+    border-bottom: 1px solid #dee2e6;
+    padding: .5rem 0;
+    
+}
 
+.my-card:first-child {
+    border-top: 1px solid #dee2e6 ;
+}
+
+.my-card a {
+    text-decoration: underline;
+    
+}
+
+.small-fs {
+    font-size: .8rem;
+}
 
 @media screen and (max-width: 992px) {
     #sidebar {
