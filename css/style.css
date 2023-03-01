@@ -49,6 +49,12 @@ main {
     height: 100%;
 }
 
+th, td, tr {
+    display: flex;
+    flex-grow: 1;
+}
+
+
 
 @media screen and (max-width: 576px) {
     #sidebar {
