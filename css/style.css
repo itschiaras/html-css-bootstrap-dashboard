@@ -2,6 +2,15 @@
     margin-top: 60px;
     height: calc(100vh - 60px);
 }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
 /* HEADER  */
 header {
     height: 60px;
@@ -37,11 +46,25 @@ header {
 /* SIDEBAR  */
 #sidebar {
     height: 100%;
-    width: 180px;
+    width: 110px;
     flex-shrink: 0;
     background-color: #051E34;
     background-image: url("../img/sidebar-bg.png");
 } 
+
+.side-bar {
+    height: 100%;
+}
+
+.my-ps-2 {
+    padding-left: 12px;
+}
+
+li:hover {
+    background-color: rgba(255, 255, 255, .4);
+    
+}
+
 /* MAIN  */
 main {
     flex-grow: 1;

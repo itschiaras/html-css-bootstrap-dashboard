@@ -30,14 +30,16 @@
                     <div class="input-group">
                         <span class="input-group-text border-end-0 search-bar pe-1" id="basic-addon1"><i
                                 class="fa-solid fa-magnifying-glass"></i></span>
-                        <input type="text" class="form-control border-start-0 search-bar" placeholder="Prova a cercare le lezioni di Laravel"
-                            aria-label="Username" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control border-start-0 search-bar"
+                            placeholder="Prova a cercare le lezioni di Laravel" aria-label="Username"
+                            aria-describedby="basic-addon1">
                     </div>
                 </div>
 
                 <ul class="nav ">
                     <li class="nav-item d-none d-sm-block">
-                        <a class="nav-link cs-nav-colors p-2 ps-3 " aria-current="page" href="#"><i class="fa-solid fa-list-ul"></i></a>
+                        <a class="nav-link cs-nav-colors p-2 ps-3 " aria-current="page" href="#"><i
+                                class="fa-solid fa-list-ul"></i></a>
                     </li>
                     <li class="nav-item d-none d-sm-block">
                         <a class="nav-link cs-nav-colors p-2" href="#"><i class="fa-solid fa-circle-question"></i></a>
@@ -47,7 +49,7 @@
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link cs-bell p-2 pe-0" href="#"><i class="fa-solid fa-bell"></i></a>
-                    
+
                 </ul>
 
 
@@ -60,13 +62,40 @@
     <div class="wrapper d-flex">
         <!-- SIDEBAR -->
         <nav id="sidebar">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-2">
+            <div class="side-bar pt-4 d-flex flex-column justify-content-between overflow-hidden">
+                <ul class="p-0 d-flex flex-column align-items-center align-items-sm-start mx-auto gap-2 text-white">
+                    <li class="w-100">
+                        <a href=""> <i class="fa-solid fa-house text-white"></i>
+                            <span class="d-none d-sm-inline ps-2 "> Home </span>
+                        </a>
+
+                    </li>
+                    <li class="w-100">
+                        <a href=""> <i class="fa-solid fa-chart-simple text-white"></i>
+                            <span class="d-none d-sm-inline my-ps-2 ">Stats </span>
+                        </a>
                         
-                    </div>
-                </div>
+                    </li>
+                    <li class="w-100">
+                        <a href=""> <i class="fa-solid fa-signal text-white"></i>
+                            <span class="d-none d-sm-inline ps-2">Signals </span>
+                        </a>
+                        
+                    </li>
+                </ul>
+
+                <ul class="p-0 d-flex flex-column align-items-center align-items-sm-start mx-auto gap-2 text-white">
+                    <li>
+                        <a href=""> <i class="fa-solid fa-gear text-white"></i>
+                            <span class="d-none d-sm-inline ps-2 "> Admin </span>
+                        </a>
+
+                    </li>
+                </ul>
+
+
             </div>
+
         </nav>
         <!-- MAIN  -->
         <main>
@@ -92,7 +121,8 @@
                                                     <tr>
                                                         <th scope="col">Nome</th>
                                                         <th scope="col" class="d-none d-sm-flex ps-0">Data Inizio</th>
-                                                        <th scope="col" class="text-uppercase d-none d-sm-flex ps-0">roi</th>
+                                                        <th scope="col" class="text-uppercase d-none d-sm-flex ps-0">roi
+                                                        </th>
                                                         <th scope="col" class="ps-0">Stato</th>
                                                         <th scope="col" class="ps-0">Azioni</th>
                                                     </tr>
@@ -119,7 +149,7 @@
                                                         <td class="d-none d-sm-block"></td>
                                                         <td></td>
                                                     </tr>
-                                                    
+
                                                 </tbody>
                                             </table>
 
