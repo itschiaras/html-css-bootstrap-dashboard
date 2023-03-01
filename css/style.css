@@ -1,0 +1,22 @@
+.wrapper {
+    margin-top: 80px;
+    height: calc(100vh - 80px);
+}
+/* HEADER  */
+header {
+    height: 80px;
+}
+/* SIDEBAR  */
+#sidebar {
+    height: 100%;
+    width: 180px;
+    flex-shrink: 0;
+    background-color: #051E34;
+    background-image: url("../img/sidebar-bg.png");
+} 
+/* MAIN  */
+main {
+    flex-grow: 1;
+    overflow-y: auto;
+    height: 100%;
+}
