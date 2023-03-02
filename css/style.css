@@ -114,8 +114,27 @@ table img {
     font-size: .8rem;
 }
 
-@media screen and (max-width: 992px) {
-    #sidebar {
-        width: 40px;
+#offcanvasExample {
+    width: 100%;
+}
+
+
+@media screen and (min-width: 992px) {
+    .offcanvas {
+        width: 50%;
     }
 }
+
+@media screen and (min-width: 992px) {
+   
+    
+    #offcanvasExample.w-lg-40 {
+    
+        width: 40%;
+    }
+}
+
+
+
+
+

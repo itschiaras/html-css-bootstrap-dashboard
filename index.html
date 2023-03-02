@@ -103,12 +103,106 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="order-md-2 col-md-4 col-lg-3">
-                            <div>
-                                <div>
-                                    <p>Nuovo studente</p>
-                                    
-                                </div>
+                            <div class="d-flex align-items-center">
+                                <p>Nuovo studente</p>
+                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                    <i class="fa-regular fa-square-plus display-5"></i>
+                                </button>
 
+                                <div class="offcanvas offcanvas-end w-lg-40 small fw-medium" tabindex="-1"
+                                    id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo
+                                            studente</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <form>
+                                            <div class="row">
+                                                <div class="mb-3 col-12 col-sm-6">
+                                                    <label for="InputFName" class="form-label ">
+                                                        Nome
+                                                    </label>
+                                                    <input type="text" class="form-control" id="InputFName">
+
+                                                </div>
+                                                <div class="mb-3 col-12 col-sm-6">
+                                                    <label for="InputLName" class="form-label ">Cognome</label>
+                                                    <input type="text" class="form-control" id="InputLName">
+                                                </div>
+                                                <div class="mb-3 col-12 col-sm-6">
+                                                    <label for="InputEmail" class="form-label">Email</label>
+                                                    <div class="input-group">
+                                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                                        <input type="email" class="form-control" aria-label="Email"
+                                                            aria-describedby="basic-addon1">
+                                                    </div>
+                                                </div>
+
+                                                <div class="mb-3 col-12 col-sm-6">
+                                                    <label for="InputPassword" class="form-label">Password</label>
+                                                    <input type="password" class="form-control" id="InputPassword">
+                                                </div>
+                                                <div class="mb-3 col-12 col-sm-6">
+                                                    <label for="InputEmail" class="form-label">Indirizzo Email</label>
+                                                    <div class="input-group">
+                                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                                        <input type="email" class="form-control" aria-label="Email"
+                                                            aria-describedby="basic-addon1">
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3 col-12 col-sm-6">
+                                                    <label for="InputPassword" class="form-label">Password</label>
+                                                    <input type="password" class="form-control" id="InputPassword">
+                                                </div>
+                                                <div class="mb-3 col-12">
+                                                    <label for="InputAddress" class="form-label ">Indirizzo</label>
+                                                    <input type="text" class="form-control" id="InputAddress">
+                                                </div>
+                                                <div class="mb-3 col-12 col-sm-6">
+                                                    <label for="InputCity" class="form-label ">Città</label>
+                                                    <input type="text" class="form-control" id="InputCity">
+                                                </div>
+                                                <div class="mb-3 col-12 col-sm-4">
+                                                    <label for="SelectCountry" class="mb-2">Stato</label>
+                                                    <select class="form-select" id="SelectCountry">
+                                                        <option selected>Scegli...</option>
+                                                        <option value="1">Burkina Faso</option>
+                                                        <option value="2">Zimbabwe</option>
+                                                        <option value="3">Botswana</option>
+                                                    </select>
+                                                </div>
+                                                <div class="mb-3 col-12 col-sm-2">
+                                                    <label for="InputCAP" class="form-label ">CAP</label>
+                                                    <input type="text" class="form-control" id="InputCAP">
+                                                </div>
+                                                <div class="mb-3 col-12">
+                                                    <label for="inputGroupFile01" class="form-label"> Foto </label>
+                                                    <input type="file" class="form-control" id="inputGroupFile01">
+                                                </div>
+                                                <div class="form-check ms-3 mt-3 col-8 col-sm-4">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        Seleziona per proseguire
+                                                    </label>
+                                                </div>
+                                                <div class="mt-3">
+                                                    <button type="button" class="btn btn-primary">Salva</button>
+                                                    <button type="button" class="btn btn-warning">Svuota</button>
+                                                </div>
+                                                
+
+                                            </div>
+
+
+
+                                        </form>
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="order-md-0 col-md-4 col-lg-6">
@@ -120,23 +214,23 @@
                                 <ol class="d-flex p-0">
                                     <li class="my-badge d-flex align-items-center"><a href="#">3 app</a></li>
                                     <li> <i class="fa-solid fa-angles-right pe-1 ps-1"></i></li>
-                                    <li class="my-badge d-none d-lg-flex align-items-center"><a href="#">Boolean Mobile App</a></li>
-                                    <li class="my-badge d-none d-lg-flex align-items-center"><a href="#">Boolean Web App </a></li>
-                                    <li class="my-badge d-none d-lg-flex align-items-center"><a href="#">Boolean Blog App</a></li>
+                                    <li class="my-badge d-none d-lg-flex align-items-center"><a href="#">Boolean Mobile
+                                            App</a></li>
+                                    <li class="my-badge d-none d-lg-flex align-items-center"><a href="#">Boolean Web App
+                                        </a></li>
+                                    <li class="my-badge d-none d-lg-flex align-items-center"><a href="#">Boolean Blog
+                                            App</a></li>
                                     <li class="my-badge d-flex align-items-center d-lg-none"><a href="#">+</a></li>
                                 </ol>
                             </nav>
                         </div>
-                        <div class="order-md-1 col-md-4 col-lg-3">
-                            <div>
-                                <div>
-                                    <p>Studenti online negli ultimi 30 minuti</p>
-                                    <p class="h1">125</p>
-                                </div>
-
+                        <div class="order-md-1 col-md-4 col-lg-3 d-flex align-items-center">
+                            <div class="d-flex flex-column align-items-start">
+                                <p class="mb-0">Studenti online negli ultimi 30 minuti</p>
+                                <p class="h3 mb-0">125</p>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -155,12 +249,14 @@
                                                 <table class="table table-hover">
                                                     <thead>
                                                         <tr>
-                                                            <th class="col-6 col-md-3 col-lg-7 fw-normal" scope="col">Nome</th>
+                                                            <th class="col-6 col-md-3 col-lg-7 fw-normal" scope="col">
+                                                                Nome</th>
                                                             <th class="d-none d-md-table-cell col-lg-auto fw-normal text-center"
                                                                 scope="col">Data inizio</th>
                                                             <th class="d-none d-sm-table-cell col-lg-auto fw-normal text-center"
                                                                 scope="col">ROI</th>
-                                                            <th class="col-auto col-lg-auto fw-normal text-center" scope="col">
+                                                            <th class="col-auto col-lg-auto fw-normal text-center"
+                                                                scope="col">
                                                                 Stato</th>
                                                             <th class="col-auto col-lg-auto fw-normal text-center"
                                                                 scope="col">Azioni</th>
@@ -169,149 +265,165 @@
                                                     <tbody>
                                                         <tr class="text-center">
                                                             <th class="fw-normal text-start" scope="row"> <img
-                                                                     aria-hidden="true" src="./img/class-avatar.jpg"
-                                                                     alt="classe"> Classe 75</th>
+                                                                    aria-hidden="true" src="./img/class-avatar.jpg"
+                                                                    alt="classe"> Classe 75</th>
                                                             <td class="d-none d-md-table-cell">15 Feb 2021</td>
                                                             <td class="d-none d-sm-table-cell">20%</td>
                                                             <td><span class="badge text-bg-success">Done</span></td>
                                                             <td class="px-md-0">
-                                                                <button class="btn btn-sm btn-outline-secondary" type="button">
+                                                                <button class="btn btn-sm btn-outline-secondary"
+                                                                    type="button">
                                                                     <i class="fa-solid fa-pencil"></i>
                                                                 </button>
-                                                                <button class="btn btn-sm btn-outline-secondary" type="button">
+                                                                <button class="btn btn-sm btn-outline-secondary"
+                                                                    type="button">
                                                                     <i class="fa-solid fa-trash"></i>
                                                                 </button>
                                                             </td>
                                                         </tr>
-        
+
                                                         <tr class="text-center">
                                                             <th class="fw-normal text-start" scope="row"> <img
-                                                                     aria-hidden="true" src="./img/class-avatar.jpg"
-                                                                     alt="classe"> Classe 76</th>
+                                                                    aria-hidden="true" src="./img/class-avatar.jpg"
+                                                                    alt="classe"> Classe 76</th>
                                                             <td class="d-none d-md-table-cell">16 Feb 2021</td>
                                                             <td class="d-none d-sm-table-cell">20%</td>
                                                             <td><span class="badge text-bg-success">Done</span></td>
                                                             <td class="px-md-0">
-                                                                <button class="btn btn-sm btn-outline-secondary" type="button">
+                                                                <button class="btn btn-sm btn-outline-secondary"
+                                                                    type="button">
                                                                     <i class="fa-solid fa-pencil"></i>
                                                                 </button>
-                                                                <button class="btn btn-sm btn-outline-secondary" type="button">
+                                                                <button class="btn btn-sm btn-outline-secondary"
+                                                                    type="button">
                                                                     <i class="fa-solid fa-trash"></i>
                                                                 </button>
                                                             </td>
                                                         </tr>
-        
+
                                                         <tr class="text-center">
                                                             <th class="fw-normal text-start" scope="row"> <img
-                                                                     aria-hidden="true" src="./img/class-avatar.jpg"
-                                                                     alt="classe"> Classe 77</th>
+                                                                    aria-hidden="true" src="./img/class-avatar.jpg"
+                                                                    alt="classe"> Classe 77</th>
                                                             <td class="d-none d-md-table-cell">17 Feb 2021</td>
                                                             <td class="d-none d-sm-table-cell">20%</td>
                                                             <td><span class="badge text-bg-warning">process</span></td>
                                                             <td class="px-md-0">
-                                                                <button class="btn btn-sm btn-outline-secondary" type="button">
+                                                                <button class="btn btn-sm btn-outline-secondary"
+                                                                    type="button">
                                                                     <i class="fa-solid fa-pencil"></i>
                                                                 </button>
-                                                                <button class="btn btn-sm btn-outline-secondary" type="button">
+                                                                <button class="btn btn-sm btn-outline-secondary"
+                                                                    type="button">
                                                                     <i class="fa-solid fa-trash"></i>
                                                                 </button>
                                                             </td>
                                                         </tr>
-        
+
                                                         <tr class="text-center">
                                                             <th class="fw-normal text-start" scope="row"> <img
-                                                                     aria-hidden="true" src="./img/class-avatar.jpg"
-                                                                     alt="classe"> Classe 78</th>
+                                                                    aria-hidden="true" src="./img/class-avatar.jpg"
+                                                                    alt="classe"> Classe 78</th>
                                                             <td class="d-none d-md-table-cell">18 Feb 2021</td>
                                                             <td class="d-none d-sm-table-cell">20%</td>
                                                             <td><span class="badge text-bg-success">Done</span></td>
                                                             <td class="px-md-0">
-                                                                <button class="btn btn-sm btn-outline-secondary" type="button">
+                                                                <button class="btn btn-sm btn-outline-secondary"
+                                                                    type="button">
                                                                     <i class="fa-solid fa-pencil"></i>
                                                                 </button>
-                                                                <button class="btn btn-sm btn-outline-secondary" type="button">
+                                                                <button class="btn btn-sm btn-outline-secondary"
+                                                                    type="button">
                                                                     <i class="fa-solid fa-trash"></i>
                                                                 </button>
                                                             </td>
                                                         </tr>
-        
+
                                                         <tr class="text-center">
                                                             <th class="fw-normal text-start" scope="row"> <img
-                                                                     aria-hidden="true" src="./img/class-avatar.jpg"
-                                                                     alt="classe"> Classe 79</th>
+                                                                    aria-hidden="true" src="./img/class-avatar.jpg"
+                                                                    alt="classe"> Classe 79</th>
                                                             <td class="d-none d-md-table-cell">19 Feb 2021</td>
                                                             <td class="d-none d-sm-table-cell">20%</td>
                                                             <td><span class="badge text-bg-danger">failed</span></td>
                                                             <td class="px-md-0">
-                                                                <button class="btn btn-sm btn-outline-secondary" type="button">
+                                                                <button class="btn btn-sm btn-outline-secondary"
+                                                                    type="button">
                                                                     <i class="fa-solid fa-pencil"></i>
                                                                 </button>
-                                                                <button class="btn btn-sm btn-outline-secondary" type="button">
+                                                                <button class="btn btn-sm btn-outline-secondary"
+                                                                    type="button">
                                                                     <i class="fa-solid fa-trash"></i>
                                                                 </button>
                                                             </td>
                                                         </tr>
-        
+
                                                         <tr class="text-center">
                                                             <th class="fw-normal text-start" scope="row"> <img
-                                                                     aria-hidden="true" src="./img/class-avatar.jpg"
-                                                                     alt="classe"> Classe 80</th>
+                                                                    aria-hidden="true" src="./img/class-avatar.jpg"
+                                                                    alt="classe"> Classe 80</th>
                                                             <td class="d-none d-md-table-cell">20 Feb 2021</td>
                                                             <td class="d-none d-sm-table-cell">20%</td>
                                                             <td><span class="badge text-bg-success">Done</span></td>
                                                             <td class="px-md-0">
-                                                                <button class="btn btn-sm btn-outline-secondary" type="button">
+                                                                <button class="btn btn-sm btn-outline-secondary"
+                                                                    type="button">
                                                                     <i class="fa-solid fa-pencil"></i>
                                                                 </button>
-                                                                <button class="btn btn-sm btn-outline-secondary" type="button">
+                                                                <button class="btn btn-sm btn-outline-secondary"
+                                                                    type="button">
                                                                     <i class="fa-solid fa-trash"></i>
                                                                 </button>
                                                             </td>
                                                         </tr>
-        
+
                                                         <tr class="text-center">
                                                             <th class="fw-normal text-start" scope="row"> <img
-                                                                     aria-hidden="true" src="./img/class-avatar.jpg"
-                                                                     alt="classe"> Classe 81</th>
+                                                                    aria-hidden="true" src="./img/class-avatar.jpg"
+                                                                    alt="classe"> Classe 81</th>
                                                             <td class="d-none d-md-table-cell">21 Feb 2021</td>
                                                             <td class="d-none d-sm-table-cell">20%</td>
                                                             <td><span class="badge text-bg-danger">failed</span></td>
                                                             <td class="px-md-0">
-                                                                <button class="btn btn-sm btn-outline-secondary" type="button">
+                                                                <button class="btn btn-sm btn-outline-secondary"
+                                                                    type="button">
                                                                     <i class="fa-solid fa-pencil"></i>
                                                                 </button>
-                                                                <button class="btn btn-sm btn-outline-secondary" type="button">
+                                                                <button class="btn btn-sm btn-outline-secondary"
+                                                                    type="button">
                                                                     <i class="fa-solid fa-trash"></i>
                                                                 </button>
                                                             </td>
                                                         </tr>
-        
+
                                                         <tr class="text-center">
                                                             <th class="fw-normal text-start" scope="row"> <img
-                                                                     aria-hidden="true" src="./img/class-avatar.jpg"
-                                                                     alt="classe"> Classe 82</th>
+                                                                    aria-hidden="true" src="./img/class-avatar.jpg"
+                                                                    alt="classe"> Classe 82</th>
                                                             <td class="d-none d-md-table-cell">22 Feb 2021</td>
                                                             <td class="d-none d-sm-table-cell">20%</td>
                                                             <td><span class="badge text-bg-success">Done</span></td>
                                                             <td class="px-md-0">
-                                                                <button class="btn btn-sm btn-outline-secondary" type="button">
+                                                                <button class="btn btn-sm btn-outline-secondary"
+                                                                    type="button">
                                                                     <i class="fa-solid fa-pencil"></i>
                                                                 </button>
-                                                                <button class="btn btn-sm btn-outline-secondary" type="button">
+                                                                <button class="btn btn-sm btn-outline-secondary"
+                                                                    type="button">
                                                                     <i class="fa-solid fa-trash"></i>
                                                                 </button>
                                                             </td>
                                                         </tr>
-        
-        
-        
+
+
+
                                                     </tbody>
                                                 </table>
                                             </div>
 
-                                            
 
-                                            
+
+
 
                                         </div>
                                     </div>
@@ -388,7 +500,7 @@
                                                 <li class="list-group-item">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
-                                                               id="CheckBox">
+                                                            id="CheckBox">
                                                         <label class="form-check-label" for="CheckBox">
                                                             Kickoff nuove classi
                                                         </label>
@@ -397,7 +509,7 @@
                                                 <li class="list-group-item">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
-                                                               id="CheckBox">
+                                                            id="CheckBox">
                                                         <label class="form-check-label" for="CheckBox">
                                                             Lezione su Bootstrap 5 in classe #75
                                                         </label>
@@ -406,7 +518,7 @@
                                                 <li class="list-group-item">
                                                     <div class="form-check">
                                                         <input class="form-check-input" type="checkbox" value=""
-                                                               id="CheckBox">
+                                                            id="CheckBox">
                                                         <label class="form-check-label" for="CheckBox">
                                                             Controllare username Github studenti
                                                         </label>
@@ -425,7 +537,8 @@
                                         <img src="./img/stats.jpeg" class="card-img-top" alt="...">
                                         <div class="card-body">
                                             <h6 class="card-title">Utenti attivi</h6>
-                                            <p class="card-text mb-2 small-fs"> Lista degli utenti attivi in piattaforma nell'ultimo mese
+                                            <p class="card-text mb-2 small-fs"> Lista degli utenti attivi in piattaforma
+                                                nell'ultimo mese
                                             </p>
                                             <ul class="list-goup p-0 small-fs">
                                                 <li class="list-group-item my-card"> Gennaio: 1200</li>
