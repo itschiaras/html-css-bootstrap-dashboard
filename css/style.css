@@ -86,8 +86,9 @@ table img {
 
 .my-badge {
     background-color: #165bba;
-    padding: 0 .5rem .1rem;
+    padding: 0 .5rem;
     border-radius: 3rem;
+    font-size: .8rem;
 }
 
 .my-card {
@@ -102,7 +103,11 @@ table img {
 
 .my-card a {
     text-decoration: underline;
-    
+
+}
+
+.card {
+    margin: 2rem 0;
 }
 
 .small-fs {
