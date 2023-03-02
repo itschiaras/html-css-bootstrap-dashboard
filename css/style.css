@@ -49,10 +49,14 @@ header {
 .cs-bell:hover {
     color: gold;
 }
+
+.dropdown-toggle::after {
+    display: none;
+}
 /* SIDEBAR  */
 #sidebar {
     height: 100%;
-    width: 110px;
+    width: 50px;
     flex-shrink: 0;
     background-color: #051E34;
     background-image: url("../img/sidebar-bg.png");
@@ -119,11 +123,7 @@ table img {
 }
 
 
-@media screen and (min-width: 992px) {
-    .offcanvas {
-        width: 50%;
-    }
-}
+
 
 @media screen and (min-width: 992px) {
    
@@ -132,6 +132,12 @@ table img {
     
         width: 40%;
     }
+
+    #sidebar {
+        width: 110px
+    }
+
+    
 }
 
 
