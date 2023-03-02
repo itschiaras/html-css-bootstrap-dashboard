@@ -122,7 +122,9 @@ table img {
     width: 100%;
 }
 
-
+.avatar img{
+    border-radius: 50%;
+}
 
 
 @media screen and (min-width: 992px) {
